@@ -15,10 +15,8 @@ const images = [{
 const ul = document.querySelector('li');
 const arr = [];
 for (let i = 0; i < images.length; i++) {
-    const markup = '<li><img src=${url[i]} alt=${alt[i]}</li>';
-    //   const li = document.createElement("li");
-    //  li.classList.add('item');
-    //  li.textContent = ingredients[i];
+    const markup = "<li><img src='${ image[i].url }'
+    alt = '${ image[i].alt }' < /li > ";
     arr.push(markup);
 
 }
